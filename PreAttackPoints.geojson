@@ -13,7 +13,8 @@
         "LONG": "120° 36.211' W",
         "LAT": "35° 25.089' N",
         "COMMENTS": "HB-40-4",
-        "ID": null
+        "ID": null,
+        "marker-color": "#000"
       },
       "geometry": {
         "type": "Point",
@@ -35,7 +36,8 @@
         "LONG": "120° 34.619' W",
         "LAT": "35° 23.394' N",
         "COMMENTS": "HB-40-1",
-        "ID": null
+        "ID": null,
+        "marker-color": ""
       },
       "geometry": {
         "type": "Point",
