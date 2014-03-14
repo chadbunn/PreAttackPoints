@@ -14,7 +14,8 @@
         "LAT": "35° 25.089' N",
         "COMMENTS": "HB-40-4",
         "ID": null,
-        "marker-color": "#000"
+        "marker-color": "#000",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -37,7 +38,8 @@
         "LAT": "35° 23.394' N",
         "COMMENTS": "HB-40-1",
         "ID": null,
-        "marker-color": ""
+        "marker-color": "#000",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -59,7 +61,9 @@
         "LONG": "121° 2.634' W",
         "LAT": "35° 31.793' N",
         "COMMENTS": null,
-        "ID": null
+        "ID": null,
+        "marker-color": "#000",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -81,7 +85,9 @@
         "LONG": "121° 7.574' W",
         "LAT": "35° 35.998' N",
         "COMMENTS": null,
-        "ID": null
+        "ID": null,
+        "marker-color": "#000",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +109,9 @@
         "LONG": "121° 6.556' W",
         "LAT": "35° 36.068' N",
         "COMMENTS": null,
-        "ID": null
+        "ID": null,
+        "marker-color": "#000",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -125,7 +133,10 @@
         "LONG": "120° 43.034' W",
         "LAT": "35° 27.333' N",
         "COMMENTS": "FH",
-        "ID": null
+        "ID": null,
+        "marker-color": "#056df5",
+        "marker-symbol": "water",
+        "marker-size": "small"
       },
       "geometry": {
         "type": "Point",
@@ -147,7 +158,10 @@
         "LONG": "120° 43.201' W",
         "LAT": "35° 27.346' N",
         "COMMENTS": "FH",
-        "ID": null
+        "ID": null,
+        "marker-color": "#056df5",
+        "marker-symbol": "water",
+        "marker-size": "small"
       },
       "geometry": {
         "type": "Point",
@@ -169,7 +183,10 @@
         "LONG": "120° 45.068' W",
         "LAT": "35° 27.227' N",
         "COMMENTS": "FH",
-        "ID": null
+        "ID": null,
+        "marker-color": "#056df5",
+        "marker-symbol": "water",
+        "marker-size": "small"
       },
       "geometry": {
         "type": "Point",
@@ -191,7 +208,10 @@
         "LONG": "120° 43.106' W",
         "LAT": "35° 26.944' N",
         "COMMENTS": "50,000 gal Tank",
-        "ID": null
+        "ID": null,
+        "marker-color": "#056df5",
+        "marker-symbol": "water",
+        "marker-size": "small"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +233,10 @@
         "LONG": "120° 43.868' W",
         "LAT": "35° 30.872' N",
         "COMMENTS": "5,000 gal Tank",
-        "ID": null
+        "ID": null,
+        "marker-color": "#056df5",
+        "marker-symbol": "water",
+        "marker-size": "small"
       },
       "geometry": {
         "type": "Point",
@@ -6637,7 +6660,9 @@
         "LONG": "121° 7.364' W",
         "LAT": "35° 35.953' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#e8e52c",
+        "marker-symbol": "campsite"
       },
       "geometry": {
         "type": "Point",
@@ -6659,7 +6684,9 @@
         "LONG": "121° 4.201' W",
         "LAT": "35° 34.206' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#e8e52c",
+        "marker-symbol": "campsite"
       },
       "geometry": {
         "type": "Point",
@@ -6681,7 +6708,9 @@
         "LONG": "120° 51.528' W",
         "LAT": "35° 22.887' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#e8e52c",
+        "marker-symbol": "campsite"
       },
       "geometry": {
         "type": "Point",
@@ -6703,7 +6732,9 @@
         "LONG": "120° 26.535' W",
         "LAT": "34° 56.458' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#e8e52c",
+        "marker-symbol": "campsite"
       },
       "geometry": {
         "type": "Point",
@@ -6725,7 +6756,9 @@
         "LONG": "120° 29.882' W",
         "LAT": "35° 1.944' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#e8e52c",
+        "marker-symbol": "campsite"
       },
       "geometry": {
         "type": "Point",
@@ -6747,7 +6780,9 @@
         "LONG": "120° 38.090' W",
         "LAT": "35° 27.224' N",
         "COMMENTS": null,
-        "ID": "IC 14-1"
+        "ID": "IC 14-1",
+        "marker-color": "#ffc53c",
+        "marker-symbol": "embassy"
       },
       "geometry": {
         "type": "Point",
@@ -6769,7 +6804,9 @@
         "LONG": "120° 44.574' W",
         "LAT": "35° 32.518' N",
         "COMMENTS": null,
-        "ID": "IC 14-2"
+        "ID": "IC 14-2",
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6791,7 +6828,9 @@
         "LONG": "120° 52.563' W",
         "LAT": "35° 25.256' N",
         "COMMENTS": null,
-        "ID": "IC 14-3"
+        "ID": "IC 14-3",
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6813,7 +6852,9 @@
         "LONG": "120° 29.827' W",
         "LAT": "35° 1.841' N",
         "COMMENTS": null,
-        "ID": "IC 20-1"
+        "ID": "IC 20-1",
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6835,7 +6876,9 @@
         "LONG": "120° 21.647' W",
         "LAT": "35° 0.197' N",
         "COMMENTS": null,
-        "ID": "IC 20-2"
+        "ID": "IC 20-2",
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6857,7 +6900,9 @@
         "LONG": "120° 30.389' W",
         "LAT": "35° 5.448' N",
         "COMMENTS": null,
-        "ID": "IC 20-3"
+        "ID": "IC 20-3",
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6879,7 +6924,9 @@
         "LONG": "120° 42.081' W",
         "LAT": "35° 11.637' N",
         "COMMENTS": null,
-        "ID": null
+        "ID": null,
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6901,7 +6948,9 @@
         "LONG": "120° 36.197' W",
         "LAT": "35° 23.616' N",
         "COMMENTS": null,
-        "ID": null
+        "ID": null,
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6923,7 +6972,9 @@
         "LONG": "121° 7.484' W",
         "LAT": "35° 35.952' N",
         "COMMENTS": "Rotate: 332",
-        "ID": null
+        "ID": null,
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6945,7 +6996,9 @@
         "LONG": "121° 6.263' W",
         "LAT": "35° 34.366' N",
         "COMMENTS": "Rotate: 332",
-        "ID": null
+        "ID": null,
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6967,7 +7020,9 @@
         "LONG": "121° 4.087' W",
         "LAT": "35° 34.118' N",
         "COMMENTS": "Rotate: 332",
-        "ID": null
+        "ID": null,
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -6989,7 +7044,9 @@
         "LONG": "121° 4.608' W",
         "LAT": "35° 33.624' N",
         "COMMENTS": "Rotate: 332",
-        "ID": null
+        "ID": null,
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -7011,7 +7068,9 @@
         "LONG": "121° 4.888' W",
         "LAT": "35° 33.442' N",
         "COMMENTS": "Rotate: 332",
-        "ID": null
+        "ID": null,
+        "marker-symbol": "embassy",
+        "marker-color": "#ffc53c"
       },
       "geometry": {
         "type": "Point",
@@ -7803,7 +7862,9 @@
         "LONG": "120° 41.039' W",
         "LAT": "35° 30.979' N",
         "COMMENTS": null,
-        "ID": "SR 14-1"
+        "ID": "SR 14-1",
+        "marker-color": "#594",
+        "marker-symbol": ""
       },
       "geometry": {
         "type": "Point",
@@ -7825,7 +7886,9 @@
         "LONG": "120° 40.204' W",
         "LAT": "35° 27.479' N",
         "COMMENTS": null,
-        "ID": "SR 14-2"
+        "ID": "SR 14-2",
+        "marker-color": "#594",
+        "marker-symbol": ""
       },
       "geometry": {
         "type": "Point",
@@ -7847,7 +7910,8 @@
         "LONG": "120° 40.480' W",
         "LAT": "35° 29.013' N",
         "COMMENTS": null,
-        "ID": "SR 14-3"
+        "ID": "SR 14-3",
+        "marker-color": "#594"
       },
       "geometry": {
         "type": "Point",
@@ -7869,7 +7933,8 @@
         "LONG": "120° 39.983' W",
         "LAT": "35° 29.461' N",
         "COMMENTS": null,
-        "ID": "SR 14-4"
+        "ID": "SR 14-4",
+        "marker-color": "#594"
       },
       "geometry": {
         "type": "Point",
@@ -7891,7 +7956,8 @@
         "LONG": "120° 43.841' W",
         "LAT": "35° 26.759' N",
         "COMMENTS": null,
-        "ID": "SR 14-5"
+        "ID": "SR 14-5",
+        "marker-color": "#594"
       },
       "geometry": {
         "type": "Point",
@@ -11587,7 +11653,9 @@
         "LONG": "120° 46.353' W",
         "LAT": "35° 27.631' N",
         "COMMENTS": null,
-        "ID": "HS 14-1"
+        "ID": "HS 14-1",
+        "marker-color": "",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -11609,7 +11677,8 @@
         "LONG": "120° 47.496' W",
         "LAT": "35° 29.852' N",
         "COMMENTS": null,
-        "ID": "HS 14-2"
+        "ID": "HS 14-2",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -11631,7 +11700,8 @@
         "LONG": "120° 51.666' W",
         "LAT": "35° 27.718' N",
         "COMMENTS": null,
-        "ID": "HS 14-3"
+        "ID": "HS 14-3",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -11653,7 +11723,8 @@
         "LONG": "120° 49.690' W",
         "LAT": "35° 29.137' N",
         "COMMENTS": null,
-        "ID": "HS 14-4"
+        "ID": "HS 14-4",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -11675,7 +11746,8 @@
         "LONG": "120° 53.515' W",
         "LAT": "35° 26.925' N",
         "COMMENTS": null,
-        "ID": "HS 11-0"
+        "ID": "HS 11-0",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -11697,7 +11769,8 @@
         "LONG": "120° 52.909' W",
         "LAT": "35° 26.108' N",
         "COMMENTS": null,
-        "ID": "HS 11-0"
+        "ID": "HS 11-0",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
@@ -11719,7 +11792,8 @@
         "LONG": "120° 52.365' W",
         "LAT": "35° 25.700' N",
         "COMMENTS": null,
-        "ID": "HS 11-0"
+        "ID": "HS 11-0",
+        "marker-symbol": "heliport"
       },
       "geometry": {
         "type": "Point",
