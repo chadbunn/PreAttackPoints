@@ -6396,7 +6396,9 @@
         "LONG": "120° 40.479' W",
         "LAT": "35° 12.414' N",
         "COMMENTS": "Baron Canyon",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6418,7 +6420,9 @@
         "LONG": "120° 45.602' W",
         "LAT": "35° 15.102' N",
         "COMMENTS": "FAA Facility",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6440,7 +6444,9 @@
         "LONG": "120° 31.836' W",
         "LAT": "35° 24.192' N",
         "COMMENTS": "SR-2",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6462,7 +6468,9 @@
         "LONG": "120° 27.171' W",
         "LAT": "35° 22.199' N",
         "COMMENTS": "SR-5",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6484,7 +6492,9 @@
         "LONG": "120° 29.866' W",
         "LAT": "35° 26.157' N",
         "COMMENTS": "SR-1",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6506,13 +6516,15 @@
         "LONG": "120° 29.614' W",
         "LAT": "35° 23.914' N",
         "COMMENTS": "SR-3",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.49357217203716,
-          35.39856478813673
+          -120.49369364976883,
+          35.398624695183265
         ]
       }
     },
@@ -6528,7 +6540,9 @@
         "LONG": "120° 45.794' W",
         "LAT": "35° 14.217' N",
         "COMMENTS": "Rumore Ranch",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6550,7 +6564,9 @@
         "LONG": "120° 43.236' W",
         "LAT": "35° 12.624' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6572,7 +6588,9 @@
         "LONG": "120° 44.981' W",
         "LAT": "35° 13.314' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6594,7 +6612,9 @@
         "LONG": "120° 46.283' W",
         "LAT": "35° 13.869' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6616,7 +6636,9 @@
         "LONG": "120° 45.308' W",
         "LAT": "35° 14.067' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -6638,7 +6660,9 @@
         "LONG": "120° 46.588' W",
         "LAT": "35° 13.838' N",
         "COMMENTS": null,
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#813",
+        "marker-symbol": "d"
       },
       "geometry": {
         "type": "Point",
@@ -8754,8 +8778,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.6746546131701,
-          35.20689903342613
+          -120.67448258399962,
+          35.20689895569169
         ]
       }
     },
@@ -8798,8 +8822,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.76003301112566,
-          35.25169633982595
+          -120.76018452644348,
+          35.25169537370589
         ]
       }
     },
@@ -8820,8 +8844,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.53059154235456,
-          35.40320382062081
+          -120.53053379058836,
+          35.403202845788925
         ]
       }
     },
@@ -8842,8 +8866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.45284444724793,
-          35.369981601194674
+          -120.45270144939421,
+          35.36998021221837
         ]
       }
     },
@@ -8864,8 +8888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.49776219279072,
-          35.435943646763654
+          -120.49769014120102,
+          35.43594194044627
         ]
       }
     },
@@ -8930,8 +8954,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.49357217203713,
-          35.39856478813673
+          -120.49369364976883,
+          35.39856784927239
         ]
       }
     },
@@ -9128,8 +9152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.72060934099491,
-          35.21039374108885
+          -120.72089552879332,
+          35.210396621657615
         ]
       }
     },
@@ -9150,8 +9174,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.74969223304275,
-          35.2219005518075
+          -120.74963003396988,
+          35.22190103877588
         ]
       }
     },
@@ -9172,8 +9196,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.77137885477048,
-          35.23114466422411
+          -120.77127277851105,
+          35.231142834890015
         ]
       }
     },
@@ -9788,8 +9812,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.76003301112566,
-          35.25169633982595
+          -120.7599002122879,
+          35.25169537370589
         ]
       }
     },
