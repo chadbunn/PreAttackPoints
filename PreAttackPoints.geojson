@@ -14,7 +14,8 @@
         "LAT": "35  25.089",
         "COMMENTS": "HB-40-4",
         "ID": 0,
-        "marker-color": "#fff"
+        "marker-color": "#fff",
+        "marker-symbol": "h"
       },
       "geometry": {
         "type": "Point",
@@ -37,7 +38,8 @@
         "LAT": "35  23.394",
         "COMMENTS": "HB-40-1",
         "ID": 1,
-        "marker-color": "#fff"
+        "marker-color": "#fff",
+        "marker-symbol": "h"
       },
       "geometry": {
         "type": "Point",
@@ -60,7 +62,8 @@
         "LAT": "35  31.793",
         "COMMENTS": null,
         "ID": 2,
-        "marker-color": "#fff"
+        "marker-color": "#fff",
+        "marker-symbol": "h"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +86,8 @@
         "LAT": "35  35.998",
         "COMMENTS": null,
         "ID": 3,
-        "marker-color": "#fff"
+        "marker-color": "#fff",
+        "marker-symbol": "h"
       },
       "geometry": {
         "type": "Point",
@@ -106,7 +110,8 @@
         "LAT": "35  36.068",
         "COMMENTS": null,
         "ID": 4,
-        "marker-color": "#fff"
+        "marker-color": "#fff",
+        "marker-symbol": "h"
       },
       "geometry": {
         "type": "Point",
