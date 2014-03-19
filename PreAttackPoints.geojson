@@ -13,7 +13,8 @@
         "LONG": "-120  36.211",
         "LAT": "35  25.089",
         "COMMENTS": "HB-40-4",
-        "ID": 0
+        "ID": 0,
+        "marker-color": "#fff"
       },
       "geometry": {
         "type": "Point",
@@ -35,7 +36,8 @@
         "LONG": "-120  34.619",
         "LAT": "35  23.394",
         "COMMENTS": "HB-40-1",
-        "ID": 1
+        "ID": 1,
+        "marker-color": "#fff"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +59,8 @@
         "LONG": "-121  2.634",
         "LAT": "35  31.793",
         "COMMENTS": null,
-        "ID": 2
+        "ID": 2,
+        "marker-color": "#fff"
       },
       "geometry": {
         "type": "Point",
@@ -79,7 +82,8 @@
         "LONG": "-121  7.574",
         "LAT": "35  35.998",
         "COMMENTS": null,
-        "ID": 3
+        "ID": 3,
+        "marker-color": "#fff"
       },
       "geometry": {
         "type": "Point",
@@ -101,7 +105,8 @@
         "LONG": "-121  6.556",
         "LAT": "35  36.068",
         "COMMENTS": null,
-        "ID": 4
+        "ID": 4,
+        "marker-color": "#fff"
       },
       "geometry": {
         "type": "Point",
@@ -123,7 +128,8 @@
         "LONG": "-120  43.034",
         "LAT": "35  27.333",
         "COMMENTS": "FH",
-        "ID": 5
+        "ID": 5,
+        "marker-color": ""
       },
       "geometry": {
         "type": "Point",
@@ -6631,10 +6637,10 @@
         "NAME": null,
         "LOCATION": null,
         "TYPE": "Base Camp",
-        "ADDRESS": null,
+        "ADDRESS": "",
         "LONG": "-121  7.364",
         "LAT": "35  35.953",
-        "COMMENTS": null,
+        "COMMENTS": "",
         "ID": 301
       },
       "geometry": {
