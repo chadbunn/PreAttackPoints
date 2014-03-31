@@ -1,3 +1,17 @@
+#PreAttackPoints {
+  marker-width:24;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+#PreAttackPointsAdd {
+  marker-width:24;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
 #PreAttackPoints{
   [TYPE='Water Source'] {
     marker-file: url('http://preattacks.s3.amazonaws.com/WaterSource.png');
