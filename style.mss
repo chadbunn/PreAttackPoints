@@ -16,10 +16,10 @@
     marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/LookOutDirectional.png');
     }
   [TYPE='Lookout'] {
-    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/Lookout1.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/LookoutFinal.png');
     }
   [TYPE='Safe Refuge Point']{
-    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/SafeRefugePoint.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/SafeRefuge.png');
     }
   [TYPE='Staging Area']{
     marker-file: url('http://preattacks.s3.amazonaws.com/StagingArea.png');
@@ -30,7 +30,7 @@
     marker-file: url('http://preattacks.s3.amazonaws.com/StagingArea.png');
     }
    [TYPE='Tactical Staging Area']{
-    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/TacticalStaginArea.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/TSA.png');
     }
   [TYPE='Helispot'] {
     marker-width:12;
@@ -39,4 +39,5 @@
     }
    }
   }
+
 
