@@ -41,3 +41,16 @@
   }
 
 
+Teaser
+
+<b>{{{TYPE}}}<br/>
+{{{PREATTACK}}}</b><br/> 
+
+<hr>PreAttack Plan: {{{NAME}}}<br/>
+Location: {{{LOCATION}}}<br/> 
+Address: {{{ADDRESS}}}<br/> 
+Comments: {{{COMMENTS}}}<br/>
+ID: {{{ID}}}
+
+
+
