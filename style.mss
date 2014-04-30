@@ -1,9 +1,9 @@
 #PreAttackPoints {
    [TYPE='Helibase'] {
-    marker-file: url('http://preattacks.s3.amazonaws.com/Helibase.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/Helibase.png');
     }
   [TYPE='Water Source'] {
-    marker-file: url('http://preattacks.s3.amazonaws.com/WaterSource.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/WaterSource.png');
     }
   [TYPE='Deployment Zone'] {
     marker-file: url('http://preattacks.s3.amazonaws.com/SafeRefuge.png');
@@ -16,29 +16,28 @@
     marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/LookOutDirectional.png');
     }
   [TYPE='Lookout'] {
-    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/LookoutFinal.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/Lookout.svg');
     }
   [TYPE='Safe Refuge Point']{
     marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/SafeRefuge.png');
     }
   [TYPE='Staging Area']{
-    marker-file: url('http://preattacks.s3.amazonaws.com/StagingArea.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/StagingArea.png');
     }
 
 #PreAttackPointsAdd{
   [TYPE='Staging Area'] {
-    marker-file: url('http://preattacks.s3.amazonaws.com/StagingArea.png');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/StagingArea.png');
     }
    [TYPE='Tactical Staging Area']{
     marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/TSA.png');
     }
   [TYPE='Helispot'] {
-    marker-width:12;
-    marker-fill:#4473DC;
-    marker-line-color:#fff;
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/Helispot.png');
     }
    }
   }
+
 
 
 Teaser
