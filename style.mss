@@ -16,7 +16,7 @@
     marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/LookOutDirectional.png');
     }
   [TYPE='Lookout'] {
-    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/Lookout.svg');
+    marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/Lookout.png');
     }
   [TYPE='Safe Refuge Point']{
     marker-file: url('http://preattacks.s3.amazonaws.com/Symbology/SafeRefuge.png');
