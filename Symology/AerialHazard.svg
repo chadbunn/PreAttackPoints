@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg5153"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="AerialHazard.svg">
+  <defs
+     id="defs5155">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5721">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5723" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5725" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5721"
+       id="linearGradient5727"
+       x1="425.49338"
+       y1="333.99715"
+       x2="447.34358"
+       y2="333.99715"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.5193458"
+     inkscape:cx="440.24072"
+     inkscape:cy="708.71457"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1034"
+     inkscape:window-height="709"
+     inkscape:window-x="1666"
+     inkscape:window-y="326"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5158">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5682" />
+    <g
+       id="g5715"
+       style="fill:#af2083;fill-opacity:1;stroke:none;stroke-opacity:1;fill-rule:nonzero"
+       inkscape:export-filename="C:\_projects\PreAttackPlans_General\countywide\Symbology\AerialHazard.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         style="font-size:14.99497223000000000px;fill:#af2083;fill-opacity:1;stroke:none;stroke-opacity:1;fill-rule:nonzero"
+         y="347.38992"
+         x="432.13107"
+         transform="scale(0.99966481,1.0003353)"
+         id="text3371-5"
+         inkscape:export-filename="C:\_projects\PreAttackPlans_General\countywide\Symbology\AerialHazard.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <tspan
+           style="font-size:12.48979855000000000px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#af2083;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:ESRI Default Marker;-inkscape-font-specification:ESRIDefaultMarker;stroke-opacity:1"
+           x="432.13107"
+           y="347.38992"
+           id="tspan3373-4">È</tspan>
+      </text>
+      <text
+         style="font-size:14.99495697000000000px;fill:#af2083;fill-opacity:1;stroke:none;stroke-opacity:1;fill-rule:nonzero"
+         y="447.49402"
+         x="-340.14551"
+         transform="matrix(0,-1.0003363,0.99966381,0,0,0)"
+         id="text3375-7"
+         inkscape:export-filename="C:\_projects\PreAttackPlans_General\countywide\Symbology\AerialHazard.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90">
+        <tspan
+           style="font-size:31.22451209999999800px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#af2083;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:ESRI Arrowhead;-inkscape-font-specification:ESRIArrowhead;stroke-opacity:1"
+           x="-340.14551"
+           y="447.49402"
+           id="tspan3377-1">4</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
