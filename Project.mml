@@ -1,0 +1,93 @@
+{
+  "bounds": [
+    -180,
+    -85.05112877980659,
+    180,
+    85.05112877980659
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "PreAttackPoints2",
+    "template_teaser": "<b>{{{TYPE}}}<br/>\n{{{PREATTACK}}}</b><br/> \n\n<hr>PreAttack Plan: {{{NAME}}}<br/>\nLocation: {{{LOCATION}}}<br/> \nAddress: {{{ADDRESS}}}<br/> \nComments: {{{COMMENTS}}}<br/>\nID: {{{ID}}}",
+    "fields": [
+      "TYPE",
+      "PREATTACK",
+      "NAME",
+      "LOCATION",
+      "ADDRESS",
+      "COMMENTS",
+      "ID"
+    ]
+  },
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "symbology"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -121.18368560352505,
+        34.998514257742734,
+        -120.36091542968042,
+        35.72412324730147
+      ],
+      "id": "PreAttackPoints1",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\_projects\\PreAttackPlans_General\\countywide\\countywide_points\\Working_Data\\PreAttack1.shp",
+        "id": "PreAttackPoints1",
+        "project": "PreAttackPoints",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "PreAttackPoints1"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -121.124728332285,
+        34.940963899258506,
+        -119.77272203898859,
+        35.784782278432736
+      ],
+      "id": "PreAttackPoints2",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\_projects\\PreAttackPlans_General\\countywide\\countywide_points\\Working_Data\\PreAttack2.shp",
+        "id": "PreAttackPoints2",
+        "project": "PreAttackPoints",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "PreAttackPoints2"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": "",
+  "legend": ""
+}
