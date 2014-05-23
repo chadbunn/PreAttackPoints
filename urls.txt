@@ -4,8 +4,8 @@ http://preattacks.s3.amazonaws.com/Symbology/AerialIgnition.png
 http://preattacks.s3.amazonaws.com/Symbology/AerialIgnition.svg
 http://preattacks.s3.amazonaws.com/Symbology/BranchBreak.png
 http://preattacks.s3.amazonaws.com/Symbology/BranchBreak.svg
-http://preattacks.s3.amazonaws.com/Symbology/camp_.png
-http://preattacks.s3.amazonaws.com/Symbology/camp_.svg
+http://preattacks.s3.amazonaws.com/Symbology/Camp_.png
+http://preattacks.s3.amazonaws.com/Symbology/Camp_.svg
 http://preattacks.s3.amazonaws.com/Symbology/DeploymentZone.png
 http://preattacks.s3.amazonaws.com/Symbology/DeploymentZone.svg
 http://preattacks.s3.amazonaws.com/Symbology/DivisionBreak.png
