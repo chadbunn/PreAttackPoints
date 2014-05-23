@@ -50,8 +50,6 @@ http://preattacks.s3.amazonaws.com/Symbology/SegmentBreak.png
 http://preattacks.s3.amazonaws.com/Symbology/SegmentBreak.svg
 http://preattacks.s3.amazonaws.com/Symbology/SpotFire.png
 http://preattacks.s3.amazonaws.com/Symbology/SpotFire.svg
-http://preattacks.s3.amazonaws.com/Symbology/staging.png
-http://preattacks.s3.amazonaws.com/Symbology/staging.svg
 http://preattacks.s3.amazonaws.com/Symbology/StagingArea.png
 http://preattacks.s3.amazonaws.com/Symbology/StagingArea.svg
 http://preattacks.s3.amazonaws.com/Symbology/Telephone_.png
