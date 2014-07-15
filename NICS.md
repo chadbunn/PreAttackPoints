@@ -50,3 +50,16 @@ The data you just uploaded will be automatically placed in the 'Upload' folder a
  
 
 If you are uploading PreAttack Data that is not for SLU, drop it into the appropriate folder. 
+
+<br>
+<br>
+<br>
+
+Using Arc to create KML 
+___
+
+With refinement Arc to KML might be a good way of going about this process. However, many issues with rendering symbols and labels have come up.  
+<br><b>Comments:</b>
+	<br>- Labels in Arc render the same size in GoogleEarth
+	<br>- Symbols look quite transparent
+	<br>- Maybe adjustments with scale could help
