@@ -5,7 +5,7 @@
 - Avila Beach Overview
 - Baron Squire Map
 - Lupine Map
-- See Davis Map - Not georeferenced correctly
+- See Davis Map - Not georeferenced correctly.
 - `Cambria Pre Attack Map`
 - Cayucos Overview
 - Northern Cayucos Pre Plan
@@ -13,7 +13,7 @@
 - `East Arroyo Grande Overview`
 - `East Arroyo Grande PreAttack Plan`
 - `West Lake Nacimiento`
-- `West Lake Nacimiento Backside` - Multiple insets on one map but sill georeference.
+- `West Lake Nacimiento Backside` - Multiple insets on one map but still georeferenced.
 - Heritage Ranch
 - Parkhill Overview
 - Parkhill PreAttack
