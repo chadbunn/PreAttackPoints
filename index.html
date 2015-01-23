@@ -1,5 +1,7 @@
 <html>
 <head>
+<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/345322813/logos/Div6Logo_PNG_16x16.png" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <meta charset=utf-8 />
 <title>San Luis Obispo Unit PreAttack</title>
 
@@ -63,6 +65,22 @@
 #map-center {
     map.centerzoom({lat: 35.2742, lon: -120.6631}, 10);
 }
+
+.my-custom-control { background: url('https://dl.dropboxusercontent.com/u/345322813/logos/Div6Logo_PNG_original.png'); 
+background-size: 150px 150px;
+background-repeat: no-repeat;
+background-position: center;
+background-clip: border-box;
+transition: background-size 0.2s;
+-webkit-transition: background-size 0.2s;
+transition-timing-function: cubic-bezier(.05,1.2,.72,1.2);
+display: inline-block; 
+width: 200px; 
+height: 200px; 
+}
+.my-custom-control:hover {
+    background-size: 200px;
+}
     
 </style>
 <ul id='map-ui'></ul>
@@ -71,27 +89,62 @@
 // Allows teaser to function when mouse hovers over, 
 // double-click allows 'Full' to function.
 var map = L.mapbox.map('map', 'slugis.map-ioviud0r');
+var MyControl = L.Control.extend({
+    options: {
+      position: 'bottomleft'
+    },
+
+    onAdd: function (map) {
+      // create the control container with a particular class name
+      // ** you can add the image to the div as a background image using css
+      var imageLink = document.createElement('a');
+          imageLink.href = 'http://slocountyfire.org/';
+      var container = L.DomUtil.create('div', 'my-custom-control');
+      imageLink.appendChild(container);
+
+      // ... initialize other DOM elements, add listeners, etc.
+      return imageLink;
+    }
+});
+
+map.addControl(new MyControl());
+
+
 map.gridControl.options.follow = true;
 var ui = document.getElementById('map-ui');
 
-addLayer(L.mapbox.tileLayer('slugis.monwxw29'), 'Deployment Zone', 1);
-addLayer(L.mapbox.tileLayer('slugis.4yvz33di'), 'Base Camp', 2);
-addLayer(L.mapbox.tileLayer('slugis.ddgyzaor'), 'Helispot', 3);
-addLayer(L.mapbox.tileLayer('slugis.itg1fw29'), 'Helibase', 4);
-addLayer(L.mapbox.tileLayer('slugis.5n0icnmi'), 'Staging Area', 5);
-addLayer(L.mapbox.tileLayer('slugis.yf9io1or'), 'Tactical Staging Area', 6);
-addLayer(L.mapbox.tileLayer('slugis.ae6u5wmi'), 'Lookout', 7);
-addLayer(L.mapbox.tileLayer('slugis.el2138fr'), 'Lookout Directional', 8);
-addLayer(L.mapbox.tileLayer('slugis.xmj3v7vi'), 'Incident Command Post', 9);
-addLayer(L.mapbox.tileLayer('slugis.th8v9529'), 'IR Downlink', 10);
+var deploymentZoneLayer = L.mapbox.tileLayer('slugis.monwxw29');
+var baseCampLayer = L.mapbox.tileLayer('slugis.4yvz33di');
+var helispotLayer = L.mapbox.tileLayer('slugis.ddgyzaor');
+var helibaseLayer = L.mapbox.tileLayer('slugis.itg1fw29');
+var stagingAreaLayer = L.mapbox.tileLayer('slugis.5n0icnmi');
+var tacticalStagingAreaLayer = L.mapbox.tileLayer('slugis.yf9io1or');
+var lookoutLayer = L.mapbox.tileLayer('slugis.ae6u5wmi');
+var lookoutDirectionalLayer = L.mapbox.tileLayer('slugis.el2138fr');
+var incidentCommandPostLayer = L.mapbox.tileLayer('slugis.xmj3v7vi');
+var irDownlinkLayer = L.mapbox.tileLayer('slugis.th8v9529');
 
-function addLayer(layer, name, zIndex) {
+addLayer(deploymentZoneLayer, L.mapbox.gridLayer('slugis.monwxw29'), 'Deployment Zone', 1);
+addLayer(baseCampLayer, L.mapbox.gridLayer('slugis.4yvz33di'), 'Base Camp', 2);
+addLayer(helispotLayer, L.mapbox.gridLayer('slugis.ddgyzaor'), 'Helispot', 3);
+addLayer(helibaseLayer, L.mapbox.gridLayer('slugis.itg1fw29'), 'Helibase', 4);
+addLayer(stagingAreaLayer, L.mapbox.gridLayer('slugis.5n0icnmi'), 'Staging Area', 5);
+addLayer(tacticalStagingAreaLayer, L.mapbox.gridLayer('slugis.yf9io1or'), 'Tactical Staging Area', 6);
+addLayer(lookoutLayer, L.mapbox.gridLayer('slugis.ae6u5wmi'), 'Lookout', 7);
+addLayer(lookoutDirectionalLayer, L.mapbox.gridLayer('slugis.el2138fr'), 'Lookout Directional', 8);
+addLayer(incidentCommandPostLayer, L.mapbox.gridLayer('slugis.xmj3v7vi'), 'Incident Command Post', 9);
+addLayer(irDownlinkLayer, L.mapbox.gridLayer('slugis.th8v9529'), 'IR Downlink', 10);
+
+function addLayer(layer, gridlayer, name, zIndex) {
     layer
         .setZIndex(zIndex)
         .addTo(map);
-
-    // Create a simple layer switcher that toggles layers on
-    // and off.
+    gridlayer
+        .addTo(map);
+    // add the gridControl to the active gridlayer
+    var gridControl = L.mapbox.gridControl(gridlayer, {follow: false}).addTo(map);
+    
+    // Create a simple layer switcher that toggles layers on and off.
     var item = document.createElement('li');
     var link = document.createElement('a');
 
@@ -105,18 +158,17 @@ function addLayer(layer, name, zIndex) {
 
         if (map.hasLayer(layer)) {
             map.removeLayer(layer);
+            map.removeLayer(gridlayer);
             this.className = '';
         } else {
             map.addLayer(layer);
+            map.addLayer(gridlayer);
             this.className = 'active';
         }
     };
-
     item.appendChild(link);
     ui.appendChild(item);
 }
-
-
 </script>
 </body>
 </html>
